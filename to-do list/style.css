@@ -1,0 +1,79 @@
+html{
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    background-color:#96a2e3;  
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:85px 100px 85px 100px;
+    
+}
+
+
+.Addtask{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    background-color:  #FFF9B8;
+    border-radius:20px;
+    height:50px;
+    width:300px;
+    
+}
+
+input[type="text"]{
+    border-radius:10px;
+    color:rgb(222, 111, 111);
+    border:1px solid rgb(219, 218, 219) ;
+    padding:5px 10px 5px 10px;
+    outline:none;
+    font-family: "Montserrat",sans-serif;
+}
+
+.Add button{
+    color:white;
+    background-color: #DD7BDF;
+    font-family: "Montserrat",sans-serif;
+    border:0px;
+    border-radius:10px;
+    padding:5px 15px;
+}
+
+.tasks{
+    
+    background-color:#fff9b8;
+    border-radius:20px;
+    height:50px;
+    width:300px;
+    margin-top:40px;
+    
+}
+/*
+.one{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+    margin:5px 10px 5px 10px;
+}
+
+.delete{
+    background-color:#DD7BDF;
+    border:0px;
+    border-radius:2px;
+    height:30px;
+    width:30px;
+    margin:5px 10px 5px 10px;
+}
+*/
+
+
+
