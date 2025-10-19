@@ -1,79 +1,87 @@
 html{
-    padding: 0px;
-    margin:0px;
+    padding: 0;
+    margin: 0;
+    font-family: "Popins", sans-serif;
+    background-color: #2f2f30;
 }
 
-body{
-    background-color:#96a2e3;  
+.heading p{
+    background-color: #f7e6b4;
+    border-radius: 15px;
+    height: 25px;
+    width: 250px;
+    color: rgb(73, 71, 71);
+    padding:0px 22px;
+    margin-bottom:35px;
+    font-family: "Popins",sans-serif;
+    font-weight: 600;
+   
 }
 
-.content{
-    display:flex;
+.content {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:85px 100px 85px 100px;
-    
+    margin: 60px auto;
 }
 
-
-.Addtask{
-    display:flex;
+.Addtask {
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap:25px;
-    background-color:  #FFF9B8;
-    border-radius:20px;
-    height:50px;
-    width:300px;
-    
+    gap: 25px;
+    background-color: #f1f0ed;
+    border-radius: 20px;
+    height: 50px;
+    width: 320px;
+    padding: 0 10px;
+
 }
 
-input[type="text"]{
-    border-radius:10px;
-    color:rgb(222, 111, 111);
-    border:1px solid rgb(219, 218, 219) ;
-    padding:5px 10px 5px 10px;
-    outline:none;
-    font-family: "Montserrat",sans-serif;
+input[type="text"] {
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(200, 200, 200);
+    padding: 5px 10px;
+    outline: none;
+    font-family: "Popins", sans-serif;
+    width: 180px;
 }
 
-.Add button{
-    color:white;
-    background-color: #DD7BDF;
-    font-family: "Montserrat",sans-serif;
-    border:0px;
-    border-radius:10px;
-    padding:5px 15px;
+.Add button {
+    color: white;
+    background-color: #377443;
+    font-family: "Popins", sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor:alias;
 }
 
-.tasks{
-    
-    background-color:#fff9b8;
-    border-radius:20px;
-    height:50px;
-    width:300px;
-    margin-top:40px;
-    
-}
-/*
-.one{
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    gap:10px;
-    margin:5px 10px 5px 10px;
+.tasks {
+    background-color: #f1f0ed;
+    border-radius: 20px;
+    min-height: 60px;
+    width: 320px;
+    margin-top: 40px;
+    padding: 10px;
 }
 
-.delete{
-    background-color:#DD7BDF;
-    border:0px;
-    border-radius:2px;
-    height:30px;
-    width:30px;
-    margin:5px 10px 5px 10px;
+.taskItem {
+    background-color: white;
+    border-radius: 12px;
+    color:#2f2f30;
+    margin: 8px 0;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-*/
 
+.deletetask i {
+    color: #377443;
+    cursor:alias;
+}
 
 
